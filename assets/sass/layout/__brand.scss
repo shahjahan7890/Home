@@ -1,0 +1,62 @@
+.brands{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/brnad-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+
+    h2{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+    }
+    p.b-p{
+        color: rgba($color: #ffffff, $alpha: .7);
+        text-transform: uppercase;
+    }
+    .brand-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 40px 0;
+
+        .brand-logo{
+            width: 11%;
+            height: 50px;
+           margin: 10px;
+             
+            img{
+                width: 150px;
+            }
+
+        }
+    }
+    blockquote{
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+        .fa-quote-left{
+            color: $primary-color;
+            font-size: 30px;
+            margin-right: 20px;
+            
+        }
+        .fa-quote-right{
+            color: $primary-color;
+            font-size: 30px;
+            margin-left: 20px;
+        }
+    }
+    p{
+        text-align: center;
+        color: #fff;
+        text-transform: capitalize;
+        padding: 10px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
